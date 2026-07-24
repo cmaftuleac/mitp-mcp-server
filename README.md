@@ -14,6 +14,60 @@ financial transactions, polls, documents, IT-visa records and company profile.
 
 ---
 
+## What you can do with it (for companies)
+
+MITP residency comes with recurring obligations and a steady stream of official
+communication. This server turns the portal into something your team — or an AI
+assistant acting on its behalf — can query and act on in plain language, instead
+of clicking through screens.
+
+**Stay compliant — never miss a filing deadline.**
+Residents must submit periodic (quarterly) reports and pass an annual
+verification. Let the assistant watch it for you:
+- _"Are any MITP reports due, and by when?"_
+- _"What's the status of our last quarterly report?"_
+
+Put it on a weekly schedule and you get an automatic compliance heads-up before
+anything lapses.
+
+**Triage official mail.**
+The portal mailbox is how MITP delivers binding notices (dozens accumulate in a
+typical account).
+- _"Summarize my unread MITP inbox and flag anything that needs action."_
+- _"Did MITP send anything about fees or deadlines this month?"_
+
+**Keep an eye on the money (7% single tax & park fees).**
+- _"List this quarter's financial transactions and total what we paid."_
+- _"Reconcile MITP charges against our accounting export and flag mismatches."_
+
+**Manage foreign talent (IT Visa).**
+- _"Which of our IT Visa confirmations are active, and are any expiring soon?"_
+
+**Track residency status & find documents.**
+- _"What's the status of our pending residency application?"_
+- _"Find our residency certificate in the document library."_
+
+**Participate in governance.**
+- _"Are there any open MITP polls we still need to answer?"_
+
+**For accounting / law firms managing many residents.**
+A single login can cover every company you represent:
+- _"List all the companies I manage and flag which have a report due this month."_
+
+Switch context per client and run the same compliance checks across your whole
+book of business.
+
+**Automate the paperwork (write mode).**
+With the write path enabled, the assistant can go beyond reading — draft and
+submit a quarterly report from your figures, or reply to a portal message — once
+the relevant save contract is wired up (see [Write operations](#write-operations)).
+Keep `MITP_READ_ONLY=true` until you're ready for that.
+
+> All of this runs on **your** account and permissions. For firm-wide or product
+> deployments, pair it with an official MITP API where one is available.
+
+---
+
 ## What it talks to
 
 The public site `mitp.md` is a marketing site with no API. The actual resident
