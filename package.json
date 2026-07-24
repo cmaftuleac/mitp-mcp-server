@@ -1,0 +1,55 @@
+{
+  "name": "mitp-mcp-server",
+  "version": "0.1.0",
+  "description": "Model Context Protocol (MCP) server for the Moldova Innovation Technology Park (MITP) resident portal (SysbuPro).",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mitp-mcp-server": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "login": "node dist/login.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mitp",
+    "moldova-it-park",
+    "sysbupro",
+    "claude",
+    "anthropic",
+    "llm",
+    "ai-agent"
+  ],
+  "author": "Corneliu Maftuleac",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmaftuleac/mitp-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmaftuleac/mitp-mcp-server/issues"
+  },
+  "homepage": "https://github.com/cmaftuleac/mitp-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "playwright": "^1.48.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

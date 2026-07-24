@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "mitp": {
+      "command": "node",
+      "args": ["/absolute/path/to/mitp-mcp-server/dist/index.js"],
+      "env": {
+        "MITP_READ_ONLY": "false"
+      }
+    }
+  }
+}
